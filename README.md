@@ -1,5 +1,5 @@
 djangocms-lang-chooser
-====================
+======================
 
 Installation
 ------------
