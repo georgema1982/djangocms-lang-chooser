@@ -1,0 +1,3 @@
+include LICENSE
+include README.md
+recursive-include djangocms_lang_chooser/templates *

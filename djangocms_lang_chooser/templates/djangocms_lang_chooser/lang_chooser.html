@@ -1,0 +1,10 @@
+{% load menu_tags %}
+{% if instance.get_template %}
+    {% if instance.get_i18n_mode %}
+        {% language_chooser instance.get_template instance.get_i18n_mode %}
+    {% else %}
+        {% language_chooser instance.get_template %}
+    {% endif %}
+{% else %}
+    {% language_chooser %}
+{% endif %}
